@@ -11,7 +11,7 @@ export const About = () => {
             <br></br>
             <br></br>
             <br></br>
-            <h3 className="my-3">Created by Yours Truly</h3>
+            <h3 className="my-3">Author : Lakshay</h3>
         </div>
     )
 }

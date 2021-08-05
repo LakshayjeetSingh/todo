@@ -35,8 +35,8 @@ function App() {
   }
 
 
-  const addTodo = (Title, Desc, Date) => {
-    console.log("Adding todo to List", Title, Desc, Date);
+  const addTodo = (Title, Desc, Date, Time) => {
+    console.log("Adding todo to List", Title, Desc, Date, Time);
     let sno
     if (todos.length === 0)
       sno = 1;
@@ -47,6 +47,7 @@ function App() {
       title: Title,
       desc: Desc,
       date: Date,
+      Time: Time,
     }
     setTodos([...todos, myTodo]);
     console.log(myTodo);
